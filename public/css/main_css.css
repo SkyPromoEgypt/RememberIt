@@ -1,0 +1,338 @@
+@charset "utf-8";
+/* CSS Document */
+
+/* 
+
+Website CSS 
+Designed and published by: Eng. Mohammed Yehia Abdul Mottalib 
+Powered by http://www.dahabtech.com
+
+
+*/
+
+
+
+/* - - - - Browser Reset - - - - */
+/* - - - - This is to avoid browser settings overriding - - - - */
+/* - - - -  Put all your setting in here - - - - */
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {
+	padding:0px;
+	margin: 0px;
+}
+table { 
+border-collapse:collapse; 
+border-spacing:0; 
+}
+fieldset,img {  
+border:0; 
+}
+img, a {
+	outline:none;
+}
+address,caption,cite,code,dfn,em,strong,th,var {
+	font-style:normal;
+	font-weight: bold;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th { 
+text-align:left; 
+}
+td {
+	padding: 5px;
+}
+h1,h2,h3,h4,h5,h6,p { 
+font-size: 100%; 
+font-weight:normal; 
+}
+p {
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.75em;
+}
+h1 {
+	color: #0d66bf;
+	font-family: "Century Gothic";
+	font-size: 1.4em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	font-weight:bold;
+}
+h2 {
+	font-size: 1em;
+	color: #39F;
+	font-family: Verdana, Geneva, sans-serif;
+	font-weight: bold;
+	padding-bottom:5px;
+	border-bottom-width: 3px;
+	border-bottom-style: solid;
+	border-bottom-color: #39F;
+}
+h3 {
+	color: #690;
+	font-family: Verdana, Geneva, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	padding-bottom: 1px;
+	padding-top: 5px;
+}
+h4 {
+	color: #C09;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+}
+h5 {
+	color: #333;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.9em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+	padding-top: 5px;
+}
+h6 {
+	color: #F00;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.1em;
+	margin-bottom: 10px;
+	padding-bottom: 3px;
+}
+body {
+	background-color: #FFF;
+	background-image: url(http://www.rememberit.com/images/webbg.png);
+	background-position: left top;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+	margin:20px;
+}
+q:before,q:after { 
+content:''; 
+}
+abbr,acronym { 
+border:0; 
+}
+:link,:visited {
+	text-decoration:none;
+	color:#0d66bf;
+}
+p.error {
+	color: #900;
+}
+div .popup {
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
+	border:solid 1px #E4E4E4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding: 30px;
+	background-color: #FFF;
+	overflow:hidden;
+}
+div .popup a {
+	float:left;
+	display:block;
+	width:70px;
+	height:70px;
+	margin:30px;
+	text-align: center;
+}
+div .popup img {
+	margin-bottom:10px;
+	display:block;
+}
+div .popup span {
+	font-family:Arial;
+	font-size:0.85em;
+	color:#333;
+	display:block;
+}
+
+#loginForm a {
+	float:none;
+	display:inline;
+	margin:0;
+	text-align: left;
+}
+#loginForm p {
+	font-size: 0.75em;
+	line-height:1.4em;
+}
+.definition {
+	font-size:0.8em;
+}
+.tooltipcss {
+	font-size:0.75em;
+	display: block;
+	left: 0.8em;
+	position: absolute;
+	top: 0.8em;
+	text-align:left;
+	color: #FFF;
+	font-weight: normal;
+	padding: 4px;
+	background-color: #666666;
+	font-family: Arial, Helvetica, sans-serif;
+	z-index: 10000;
+	box-shadow: 0 0 1px #333;
+	border-radius: 3px;
+}
+#wrraper {
+	width: 1000px;
+	margin-right: auto;
+	margin-bottom: 20px;
+	margin-left: auto;
+	margin-top: 20px;
+	border-radius:1em;
+	position:relative;
+}
+#controlsPannel {
+	padding:10px;
+	background-color: #fff;
+	height:30px;
+	position:absolute;
+	top:-30px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	left:250px;
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
+	
+}
+#controlsPannel img {
+	margin-top:7px;
+}
+#overlay {
+	background-color: #000000;
+	width :100%;
+	height: 100%;
+	position: fixed;
+	top : 0;
+	left: 0;
+	z-index:100;
+	display:none;
+	opacity:0;
+	alpha(opacity=0);
+}
+.window {
+	-moz-box-shadow: 0 0 3px #333;
+	-webkit-box-shadow: 0 0 3px #333;
+	box-shadow: 0 0 3px #333;
+	border:solid 1px #E4E4E4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding: 20px;
+	background-color: #FFF;
+	overflow:auto;
+	z-index:110;
+	position: fixed;
+	display:none;
+}
+.closepopup {
+	display: none;
+	position: fixed;
+	z-index: 120;
+	height: 20px;
+	width: 20px;
+	background-image: url(http://www.rememberit.com/images/close-overlay-btn_sprite.png);
+	background-repeat: no-repeat;
+	cursor: pointer;
+}
+.closepopup:hover {
+	background-image: url(http://www.rememberit.com/images/close-overlay-btn_sprite.png);
+	background-repeat: no-repeat;
+	background-position: -20px 0px;
+}
+#rhelp {
+	display:none;
+}
+#rsettings {
+	display:none;
+}
+#rsearch {
+	display:none;
+}
+#footer {
+	padding: 10px;
+	text-align: center;
+	line-height:1.2em;
+}
+#browsers img {
+	margin-top: 10px;
+	margin-left:5px;
+	margin-right:5px;
+}
+/* Table Styles */
+
+.tableControl {
+	width:100%;
+	margin-left:10px;
+	background-color: #FFF;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+	box-shadow: 0 0 3px #666;
+	border:solid 1px #E4E4E4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	padding:10px;
+	display:block;
+}
+.tableControl th{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 50px;
+	border-radius: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	color: #000;
+	background-color:#C7C7C7;
+	padding: 8px;
+	border: solid 1px #fff;
+	text-align:left;
+	width:550px;
+	text-shadow: 1px 1px 1px rgb(255,255,255);
+}
+.tableControl th:hover{
+	background-color:#9F9F9F;
+}
+.tableControl td{
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 50px;
+	border-radius: 5px;
+	font-family: Tahoma, Geneva, sans-serif;
+	font-size: 0.75em;
+	color: #900;
+	background-color: #E5E5E5;
+	padding: 8px;
+	border: solid 1px #fff;
+	
+}
+.tableControl td:hover{
+	background-color: #CDCDCD;
+}
+.tableControl td a, .tableControl th a{
+	color:#0066CC;
+}
+.tableControl caption{
+	color:#0066CC;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	padding: 7px;
+	border: 1px solid rgb(102,102,102);
+	border-radius: 5px 5px 0px 0px;
+	background-color: rgb(204,204,204);
+	text-shadow: 1px 1px 1px rgb(255,255,255);
+}

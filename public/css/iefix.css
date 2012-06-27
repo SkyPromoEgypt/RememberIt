@@ -1,0 +1,14 @@
+#mainMenu {
+	display: block;
+	position: absolute;
+	width: 605px;
+	left: 28px;
+	top: 107px;
+	overflow: visible;
+	z-index: 10;
+	height: 229px;
+}
+#mainMenu li .submenu {
+	top: 30px;
+	padding-bottom:20px;
+}

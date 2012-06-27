@@ -1,0 +1,238 @@
+@charset "utf-8";
+
+/* CSS Document */
+.form {
+	padding: 10px;
+	background-color: #FFF;
+	-moz-box-shadow: 0 0 3px #666;
+	-webkit-box-shadow: 0 0 3px #666;
+	box-shadow: 0 0 3px #666;
+	border:solid 1px #E4E4E4;
+	-moz-border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-khtml-border-radius: 10px;
+	border-radius: 10px;
+	overflow: auto;
+	margin-bottom:20px;
+	margin-left:10px;
+	width:928px;
+}
+
+.form .input {
+	padding: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #333;
+	border: solid 1px #CCC;
+	background-repeat: repeat-x;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	width:200px;
+	background-image: url(http://www.rememberit.com/images/text_input_bg.jpg);
+}
+
+.form .input:focus {
+	-moz-box-shadow: 0 0 3px #d4c87a;
+	-webkit-box-shadow: 0 0 3px #d4c87a;
+	box-shadow: 0 0 3px #d4c87a;
+	background-color: #f4f0d3;
+	border: solid 1px #d4c87a;
+	background-image: url(http://www.rememberit.com/images/text_input_bg_focus.jpg);
+}
+
+.form .smallinput {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #333;
+	border: solid 1px #CCC;
+	background-image: url(http://www.rememberit.com/images/text_input_bg.jpg);
+	background-repeat: repeat-x;
+	width: 112px;
+	margin-bottom: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form .smallinput:focus {
+	background-image: url(http://www.rememberit.com/images/text_input_bg_focus.jpg);
+	background-color: #f4f0d3;
+	border: solid 1px #d4c87a;
+}
+
+.form .dropdown {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 1em;
+	color: #000;
+	border: solid 1px #CCC;
+	background-image: url(http://www.rememberit.com/images/text_input_bg.jpg);
+	background-repeat: repeat-x;
+	margin-bottom: 5px;
+	outline:none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form .dropdown:focus {
+	background-image: url(http://www.rememberit.com/images/text_input_bg_focus.jpg);
+	background-color: #f4f0d3;
+	border: solid 1px #d4c87a;
+	outline:none;
+}
+
+.form textarea {
+	padding: 5px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #333;
+	border: solid 1px #CCC;
+	width: 95%;
+	margin-bottom: 5px;
+}
+
+.form textarea:focus {
+	border: solid 1px #d4c87a;
+}
+
+.form label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	font-weight: bold;
+	display: block;
+}
+
+.form .submit {
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	font-weight: bold;
+	color: #333;
+	background-image: url(http://www.rememberit.com/images/text_input_bg.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #CCC;
+	outline: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form .submit:hover {
+	cursor: pointer;
+	color: #360;
+	outline: none;
+}
+
+.form .error {
+	color: #900;
+	margin-top: 3px;
+	margin-bottom: 3px;
+	margin-left: 10px;
+
+}
+
+.form .binary {
+	color: #360;
+	font-size: 0.85em;
+	margin-top: 5px;
+
+}
+
+.form fieldset {
+	padding: 15px;
+	border: 1px solid #CCC;
+}
+
+.form legend {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.85em;
+	font-weight: bold;
+	color: #666;
+}
+.form .blue {
+	background-color: #CEECFF;
+}
+p.error {
+	font-family: Arial,sans-serif;
+	font-size:0.85em;
+	color:#900;
+	margin-top:10px;
+	font-weight: bold;	
+}
+p.success {
+	font-family: Arial,sans-serif;
+	font-size:0.85em;
+	color:#006633;
+	margin-top:10px;
+	font-weight: bold;
+}
+p.msg {
+	font-family: Arial,sans-serif;
+	font-size:0.85em;
+	color:#0773CB;
+	margin-top:10px;
+	font-weight: bold;
+}
+
+.form2 .input {
+	padding: 6px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #333;
+	border: solid 1px #CCC;
+	background-repeat: repeat-x;
+	width: 100%;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+	width:200px;
+}
+
+.form2 .input:focus {
+	-moz-box-shadow: 0 0 3px #d4c87a;
+	-webkit-box-shadow: 0 0 3px #d4c87a;
+	box-shadow: 0 0 3px #d4c87a;
+	background-color: #f4f0d3;
+	border: solid 1px #d4c87a;
+}
+
+.form2 label {
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.8em;
+	color: #000;
+	font-weight: bold;
+	display: block;
+	margin-top:7px;
+}
+
+.form2 .submit {
+	padding: 4px;
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 0.75em;
+	font-weight: bold;
+	color: #333;
+	background-image: url(http://www.rememberit.com/images/text_input_bg.jpg);
+	background-repeat: repeat-x;
+	border: 1px solid #CCC;
+	outline: none;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	-khtml-border-radius: 5px;
+	border-radius: 5px;
+}
+
+.form2 .submit:hover {
+	cursor: pointer;
+	color: #360;
+	outline: none;
+}
